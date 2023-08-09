@@ -4,9 +4,9 @@ services:
         container_name: dsm
         image: kroese/virtual-dsm:latest
         environment:
-            CPU_CORES: "1"
-            DISK_SIZE: "16G"
-            RAM_SIZE: "512M"
+            CPU_CORES: "5"
+            DISK_SIZE: "1000G"
+            RAM_SIZE: "128G"
         devices:
             - /dev/kvm
             - /dev/vhost-net
